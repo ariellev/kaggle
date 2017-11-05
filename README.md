@@ -1,5 +1,6 @@
-##### Tutorial
+##### Tutorials
 https://www.kaggle.com/kakauandme/tensorflow-deep-nn
+https://github.com/tensorflow/tensorboard
 
 ##### Dockerfile
 https://hub.docker.com/r/jupyter/tensorflow-notebook/
@@ -17,8 +18,11 @@ conda update numpy
 pip install tensorboard
 ```
 
-###### Localhost
+###### localhost
 ```
-cd ${work-directory}
-jupyter notebook &
+jupyter notebook --notebook-dir=notebooks &
+tensorboard --logdir notebooks/tensor-flow/logs &
 ```
+
+###### Resources
+http://neuralnetworksanddeeplearning.com/chap3.html#the_cross-entropy_cost_function
