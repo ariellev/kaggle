@@ -7,3 +7,10 @@
 .local
 **/*data*
 **/*log*
+**/*.ipynb
+**/tmp
+**/*.pyc
+serving
+**/logs
+**/model
+**/checkpoints
